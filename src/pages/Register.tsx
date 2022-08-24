@@ -2,7 +2,7 @@
 import { LockClosedIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom'
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <>
 
@@ -15,12 +15,12 @@ const Login: React.FC = () => {
               alt="Workflow"
             />
             <h2 className="mt-6 text-center text-3xl tracking-tight font-bold text-white-900">
-              Sign in to your account
+              Create a new account
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Or{' '}
-              <Link to="/register" className="font-medium text-indigo-600 hover:text-indigo-500">
-                create an account here
+              <Link to="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
+                sign in to an existing account
               </Link>
             </p>
           </div>
@@ -51,8 +51,22 @@ const Login: React.FC = () => {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Password"
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Confirm Password
+                </label>
+                <input
+                  id="confirm-password"
+                  name="confirm-password"
+                  type="password"
+                  autoComplete="confirm-password"
+                  required
+                  className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  placeholder="Confirm Password"
                 />
               </div>
             </div>
@@ -95,4 +109,4 @@ const Login: React.FC = () => {
   )
 }
 
-export default Login
+export default Register
