@@ -109,4 +109,4 @@ const Register: React.FC = () => {
   )
 }
 
-export default Register
+export default Register;
