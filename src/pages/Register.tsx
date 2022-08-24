@@ -6,7 +6,7 @@ const Register: React.FC = () => {
   return (
     <>
 
-      <div className="bg-gradient-to-b from-emerald-300/10 via-emerald-400/20 to-emerald-900 min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-b from-emerald-900 via-emerald-400/20 to-emerald-300/10 min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8">
           <div>
             <img
