@@ -1,10 +1,10 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'plant-app-client',
-  webDir: 'build',
-  bundledWebRuntime: false
+  appId: "com.leo-plant.app",
+  appName: "plant-app-client",
+  webDir: "build",
+  bundledWebRuntime: false,
 };
 
 export default config;
