@@ -1,11 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab2.css';
-
 const Tab2: React.FC = () => {
-  return (
-    <div></div>
-  );
+  return <div>Tab 2</div>;
 };
 
 export default Tab2;
