@@ -1,5 +1,4 @@
 import { PlusIcon } from "@heroicons/react/24/solid";
-import { MdNorth } from "react-icons/md";
 import {
   GiCarnivorousPlant,
   GiPlantRoots,
@@ -39,7 +38,6 @@ const Schedule: React.FC = () => {
               />
               Add Plant
             </button>
-            <MdNorth className="absolute text-emerald-600 mt-2 w-16 h-16 animate-bounce" />
           </div>
         </div>
         <div className="max-w-3xl mx-auto flex flex-col items-center justify-center bg-white/70 rounded h-80">
