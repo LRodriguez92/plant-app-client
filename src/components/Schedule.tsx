@@ -44,7 +44,6 @@ const Schedule: React.FC = () => {
         </div>
         <div className="max-w-3xl mx-auto flex flex-col items-center justify-center bg-white/70 rounded h-80">
           <div className="flex justify-center items-center my-6">
-            {/* TODO: Add image here */}
             {plantIcons[Math.floor(Math.random() * plantIcons.length)]}
           </div>
           <p className="text-center text-emerald-900 font-bold">
